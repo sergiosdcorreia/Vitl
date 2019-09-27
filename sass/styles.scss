@@ -91,11 +91,13 @@ body {
     }
 
     &__logo {
+        font-family: 'Nova Round', cursive;
         font-size: 2.2rem;
         font-weight: 700;
         position: absolute;
         top: 30px;
         left: 60px;
+        text-transform: uppercase;
 
         @media only screen and (min-width: 867px) {
             left: 50%;
@@ -284,10 +286,12 @@ body {
     }
 
     &__logo {
+        font-family: 'Nova Round', cursive;
         font-size: 2.2rem;
         font-weight: 700;
         display: inline-block;
         flex-basis: 40%;
+        text-transform: uppercase;
     }
 
     &__container {

@@ -109,11 +109,13 @@ body {
           .header__nav ul li a {
             padding: 0 20px; } }
   .header__logo {
+    font-family: 'Nova Round', cursive;
     font-size: 2.2rem;
     font-weight: 700;
     position: absolute;
     top: 30px;
-    left: 60px; }
+    left: 60px;
+    text-transform: uppercase; }
     @media only screen and (min-width: 867px) {
       .header__logo {
         left: 50%;
@@ -247,10 +249,12 @@ body {
     .footer {
       padding-bottom: 20px; } }
   .footer__logo {
+    font-family: 'Nova Round', cursive;
     font-size: 2.2rem;
     font-weight: 700;
     display: inline-block;
-    flex-basis: 40%; }
+    flex-basis: 40%;
+    text-transform: uppercase; }
   .footer__container {
     display: block;
     padding: 0 10px 20px 10px; }
