@@ -1,12 +1,10 @@
-$(document).ready(function() {
+$(function() {
     setTimeout(function() {
-        $("#popup").css("visibility","visible")
-        $("#popup").css("opacity","1")
+        $("#popup").show();
     }, 3000);
 
-    $(".popup__close, .popup__button-dismiss").on("click", function() {
-        $("#popup").css("visibility","hidden")
-        $("#popup").css("opacity","0")
+    $(".popup__close").add(".popup__button-dismiss").on("click", function() {
+        $("#popup").hide();
     });
 });
 
